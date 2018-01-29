@@ -37,13 +37,6 @@
             "metadata": {
             "description": "Admin password on all VMs."
             }
-        }, 
-	"Location": {
-            "type": "string",
-			"defaultValue": "Australia-East",
-            "metadata": {
-            "description": "AU EAST"
-            }
         }
     },
     "variables": {
