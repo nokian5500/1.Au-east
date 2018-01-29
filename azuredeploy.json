@@ -4,6 +4,7 @@
     "parameters": {
         "vmSku": {
             "type": "string",
+		"defaultValue": "Standard_A8_v2",
             "metadata": {
             "description": ""
             }
@@ -17,6 +18,7 @@
         },
         "instanceCount": {
             "type": "int",
+		"defaultValue": 18
             "metadata": {
             "description": "Number of VM instances (100 or less)."
             },
@@ -34,6 +36,13 @@
 			"defaultValue": "Romik1994rus!",
             "metadata": {
             "description": "Admin password on all VMs."
+            }
+        }, 
+	"Location": {
+            "type": "string",
+			"defaultValue": "Australia-East",
+            "metadata": {
+            "description": "AU EAST"
             }
         }
     },
